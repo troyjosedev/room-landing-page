@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.75rem;
+  }
+}
+
+.filter:hover {
+  filter: invert(75%) sepia(0%) saturate(1167%) hue-rotate(146deg) brightness(86%) contrast(90%);
+  
+}
+
+
