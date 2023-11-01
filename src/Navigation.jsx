@@ -1,6 +1,6 @@
 import { Twirl as Hamburger } from 'hamburger-react'
 import { useState, useEffect } from 'react'
-import Logo from '../images/logo.svg'
+import Logo from '/public/images/logo.svg'
 
 export default function Navigation() {
     const [isOpen, setOpen] = useState(false)
