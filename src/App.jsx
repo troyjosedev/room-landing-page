@@ -2,6 +2,7 @@
 import Hero from "./Hero"
 import Discover from "./Discover"
 import About from "./About"
+import '../src/index.css'
 
 export default function App() {
   return (
